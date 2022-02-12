@@ -1,0 +1,31 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardContainer{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.sortButton{
+    background-color: #4ce70e; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 5px;
+    margin: 10px;  
+
+}
+
+ 
+.sortButton:hover{
+    background-color: #096300;
+    transition: 0.3s;
+}
